@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <header class="row">
+        <div class="col-md-3">
+        <img src="images/logo.png" alt="logo icon" />
+        </div>
+        <div class="col-md-6" id="tabs">
+                <div><i data-feather="users"></i><a href="#groups">Groups</a></div>
+                <div class="active"><i data-feather="message-square" class="svgfill"></i><a href="#messages" >Messages</a></div>
+                <div><i data-feather="video"></i><a href="#videos">Video Calls</a></div>
+        </div>
+       <div class="col-md-3">
+            <i data-feather="help-circle"></i>
+            <i data-feather="bell"></i>
+            <div class="profile-pic">
+                    <img src="images/profile.svg" alt="profile-pic"/>
+            </div>
+            <span class="user">Robin Wang</span><i data-feather="chevron-down"></i>
+       </div>
+    </header>
+    <section class="row">
+        <div class="col-md-2 secondary-navigation">
+            <div class="nav-items-list">
+                <div class="nav-item">
+                    <div class="profile-pic">
+                            <img src="images/profile.svg" alt="profile-pic"/>
+                    </div>
+                    <h4>Robin Wang</h4>
+                    <span>Life starts at the end of your comfort zone</span>
+                </div>
+            </div>
+            <div class="nav-items-list">
+                <div class="active first nav-item"><i data-feather="message-square"></i><a href="#messages">Messages</a></div>
+                <div class="nav-item"><a href="#messages">Chats</a></div>
+                <div class="nav-item"><a href="#messages">Send Message</a></div>
+            </div>
+            <div class="nav-items-list">
+                <div class="first nav-item"><i data-feather="users"></i><a href="#groups">Groups</a></div>
+                <div class="nav-item"><a href="#history">History</a></div>
+                <div class="nav-item"><a href="#create-groups">Create Groups</a></div>
+            </div>
+            <div class="nav-items-list">
+                <div class="first nav-item"><i data-feather="video"></i><a href="#videos">Video Calls</a></div>
+                <div class="nav-item"><a href="#history">History</a></div>
+                <div class="nav-item"><a href="#calls">Calls</a></div>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="row">
+                <div class="col-md-12 maximize">
+                        <div><i data-feather="message-square" class="svgfill"></i><a href="#messages" >Messages</a></div>
+                        <div class="maximize-icon"><i data-feather="maximize-2"></i></div>
+                </div>
+            </div>
+            <div class="row rounded chat-box">
+                <div class="col-md-4  pb-3 border-right">
+                    <div class="heading pt-2 border-bottom">
+                        <h5>Chats</h5>
+                    </div>
+                    <div class="border-bottom pt-3">
+                        <img src="images/user.svg" alt="user" class="d-inline"/>
+                        <h6 class="users d-inline">Samantha</h6>
+                        <p class="user-msg pl-5">Hey!! How are you??</p>
+                        <span class="date-time">19 Jan,2019 | 03:40 pm</span> 
+                        <div class="float-right">
+                            <i data-feather="eye"></i><span>11 Replies</span>
+                            <i data-feather="bar-chart-2"></i><span>100/120</span>
+                        </div>
+                    </div>
+                    <div class="border-bottom border-danger pt-3 active-chat">
+                            <img src="images/user.svg" alt="user" class="d-inline"/>
+                            <h6 class="users d-inline">Samantha</h6>
+                            <p class="user-msg pl-5">Hey!! How are you??</p>
+                            <span class="date-time">19 Jan,2019 | 03:40 pm</span> 
+                            <div class="float-right">
+                                <i data-feather="eye"></i><span>11 Replies</span>
+                                <i data-feather="bar-chart-2"></i><span>100/120</span>
+                            </div>
+                    </div>
+                    <div class="border-bottom pt-3">
+                            <img src="images/user.svg" alt="user" class="d-inline"/>
+                            <h6 class="users d-inline">Samantha</h6>
+                            <p class="user-msg pl-5">Hey!! How are you??</p>
+                            <span class="date-time">19 Jan,2019 | 03:40 pm</span> 
+                            <div class="float-right">
+                                <i data-feather="eye"></i><span>11 Replies</span>
+                                <i data-feather="bar-chart-2"></i><span>100/120</span>
+                            </div>
+                    </div>
+                    <div class="border-bottom pt-3">
+                            <img src="images/user.svg" alt="user" class="d-inline"/>
+                            <h6 class="users d-inline">Samantha</h6>
+                            <p class="user-msg pl-5">Hey!! How are you??</p>
+                            <span class="date-time">19 Jan,2019 | 03:40 pm</span> 
+                            <div class="float-right">
+                                <i data-feather="eye"></i><span>11 Replies</span>
+                                <i data-feather="bar-chart-2"></i><span>100/120</span>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-8 personal-chat">
+                        <div class="row border-bottom">
+                            <div class="col-md-12 pb-2 pt-2">
+                                <div class="d-inline"><i data-feather="eye" class="svgfill"></i><span class="pl-2 pr-4">Replies</span></div>
+                                <div class="d-inline"><i data-feather="bar-chart-2"></i><span class="pl-2 pr-4">Reports</span></div>
+                            </div>
+                        </div>
+                        <div class="message-container mt-3"><p class="text-right p-3 mb-1 dummy-msg rounded">Hey!!! How are you??</p><div class="timeofmsg"></div></div>
+                        <!-- <div class="message-container"><p class="sent-msg text-right p-3 d-none"></p></div>
+                        <div class="message-container"><p class="received-msg text-left p-3 d-none"></p></div> -->
+
+                        <div class="send-message-wrapper mb-2">
+                                <div class="features">
+                                        <i data-feather="volume-2"></i><span>Audio</span>
+                                        <i data-feather="video"></i><span>Video</span>
+                                        <i data-feather="type"></i><span>Text</span>
+                                        <i data-feather="image"></i><span>Image</span>
+                                        <i data-feather="mic"></i><span>TTS</span>
+                                        <i data-feather="film"></i><span>Audio & Text</span>
+                                    </div>
+                            <i data-feather="plus-circle" class="svgfill add-more-features"></i>
+                            <form class="chat-input" onsubmit="return false;">
+                                    <input type="text" class="form-control" autocomplete="on" placeholder="Start Typing....." />
+                                    <button class="send-msg rounded" type="submit"><i data-feather="send" class="svgfill send-symbol"></i><span>Send</span></button>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>feather.replace()</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="src/js/app.js"></script>
+</body>
+</html>
